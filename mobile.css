@@ -1,0 +1,357 @@
+@media screen and (max-width: 500px) {
+  #logo {
+    width: 75%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .navbar ul li a {
+    font-size: 1rem;
+  }
+
+  .checkbtn {
+    display: block;
+  }
+
+  .navbar ul {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgb(31, 29, 29);
+    top: 5rem;
+    left: 100%;
+    text-align: center;
+    transition: all 0.5s;
+  }
+
+  .navbar ul li {
+    display: block;
+    padding: 2px;
+    line-height: 3rem;
+  }
+
+  .navbar ul li a {
+    font-size: 1.3rem;
+    justify-content: center;
+    align-items: center;
+  }
+
+  a:hover {
+    color: orange;
+  }
+
+  #check:checked ~ ul {
+    left: 0;
+  }
+
+  .links i {
+    color: white;
+    margin: 2vmin;
+  }
+
+  .container.grid img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .container.grid {
+    width: 100%;
+    height: 75vh;
+    display: block;
+    grid-template-columns: 1fr;
+    grid-template-rows: 3fr;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    transition: 0.5s;
+  }
+
+  .container.grid .card {
+    margin-top: 1rem;
+    background-color: black;
+  }
+
+  .circle1,
+  .circle2 {
+    display: none;
+  }
+
+  .portfolio img {
+    width: 100%;
+    margin-top: -5rem;
+  }
+
+  h4.text-center {
+    margin-top: -20%;
+  }
+
+  .glass {
+    width: 100%;
+    margin: 0 auto;
+    z-index: 100;
+  }
+
+  .flex-box {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .section-1 {
+    padding-top: 25rem;
+  }
+
+  section#team {
+    margin-top: -1rem;
+  }
+
+  .col-md-4.card-body ul {
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  div.main-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    border-radius: 1rem;
+  }
+
+  #item1.card {
+    height: auto;
+    margin-top: 15rem;
+  }
+
+  .main-grid .card {
+    width: 100%;
+    height: auto;
+  }
+
+  .small-icons i {
+    padding: 0 0.2rem;
+  }
+
+  .sitemap .links a {
+    font-size: 1.2rem;
+  }
+
+  .grid-4 {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 1fr 1fr;
+  }
+
+  div.main-grid {
+    padding-top: 8rem;
+  }
+
+  section#achievements {
+    height: 100vh;
+    padding-top: 2rem;
+  }
+}
+
+/* big screen mobile devices */
+@media screen and (max-width: 768px) {
+  #logo {
+    margin: 0 auto;
+  }
+
+  .navbar ul li a {
+    z-index: 1;
+  }
+
+  h3 {
+    font-size: 1.75rem;
+  }
+  p,
+  #item1.card a,
+  #item2.card a,
+  pre code {
+    font-size: 1.3rem;
+  }
+
+  main {
+    width: 100%;
+  }
+  .glass {
+    width: 90%;
+    min-height: 50vh;
+    background: linear-gradient(
+      to right bottom,
+      rgba(70, 68, 68, 0.3),
+      rgba(70, 68, 68, 0.2)
+    );
+    border-radius: 2rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+
+  .circle1,
+  .circle2 {
+    background: linear-gradient(
+      to right bottom,
+      rgba(70, 68, 68, 0.3),
+      rgba(70, 68, 68, 0.2)
+    );
+    height: 7rem;
+    width: 7rem;
+    position: absolute;
+    backdrop-filter: blur(10rem);
+    opacity: 0.9;
+  }
+
+  .circle1 {
+    top: 15%;
+    right: 2%;
+  }
+
+  .circle2 {
+    left: 1%;
+    top: 68%;
+  }
+
+  .section-1 {
+    margin-top: -22rem;
+  }
+
+  section#team {
+    padding-top: 3rem;
+  }
+
+  section#achievements {
+    padding-top: 5rem;
+  }
+
+  div.main-grid {
+    margin-top: -8rem;
+  }
+
+  div.container.grid {
+    margin-top: -5rem;
+  }
+
+  .grid-container,
+  .col-md-4 {
+    margin-top: 2rem;
+  }
+
+  .container.grid img {
+    width: 100%;
+    border-radius: 10px;
+  }
+
+  .card-body ul li {
+    font-size: 1rem;
+  }
+
+  .col-md-4.card {
+    padding: 0 auto;
+  }
+
+  .content img {
+    width: 10vmin;
+    height: 10vmin;
+    margin-top: 0.5rem;
+  }
+
+  button {
+    box-shadow: 1px orange;
+    color: #f4f3ee;
+    font-size: 600;
+    font-size: 1.3rem;
+    height: auto;
+    text-align: left;
+  }
+}
+
+/* tablets */
+@media screen and (max-width: 1024px) {
+  #logo {
+    margin: 0 auto;
+  }
+  .glass {
+    width: 75%;
+    min-height: 50vh;
+    background: linear-gradient(
+      to right bottom,
+      rgba(70, 68, 68, 0.3),
+      rgba(70, 68, 68, 0.2)
+    );
+    border-radius: 2rem;
+    margin: 0 auto;
+    padding-top: 5rem;
+  }
+
+  h4.text-center {
+    margin-top: -3rem;
+  }
+
+  .circle1,
+  .circle2 {
+    display: none;
+  }
+
+  .navbar ul li a,
+  b,
+  h3 {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+
+  p,
+  #item1.card a,
+  #item2.card a,
+  pre code {
+    font-size: 1.3rem;
+  }
+
+  .grid-container .grid-item a p {
+    font-size: 1.5rem;
+  }
+
+  .section-1 {
+    margin-top: -35rem;
+  }
+
+  section#team {
+    padding-top: 3rem;
+  }
+
+  section#achievements {
+    padding-top: 5rem;
+  }
+
+  div.main-grid {
+    margin-top: -10rem;
+  }
+
+  div.container.grid {
+    margin-top: -5rem;
+  }
+
+  .grid-container,
+  .col-md-4 {
+    margin-top: 2rem;
+  }
+
+  .content img {
+    width: 8vmin;
+    height: 8vmin;
+    margin-top: 0;
+    text-align: left;
+  }
+
+  button {
+    box-shadow: 1px 0px orange;
+    color: #f4f3ee;
+    font-size: 600;
+    font-size: 1.3rem;
+    height: auto;
+    text-align: left;
+  }
+}
