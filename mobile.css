@@ -351,3 +351,10 @@
     text-align: left;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .circle1,
+  .circle2 {
+    display: none;
+  }
+}
