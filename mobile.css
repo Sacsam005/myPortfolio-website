@@ -100,7 +100,7 @@
   }
 
   .section-1 {
-    padding-top: 25rem;
+    padding-top: 35rem;
   }
 
   section#team {
@@ -153,6 +153,21 @@
     height: 100vh;
     padding-top: 2rem;
   }
+
+  .content img {
+    width: 10vmin;
+    height: 10vmin;
+    margin-top: 0.5rem;
+  }
+
+  button {
+    box-shadow: 1px orange;
+    color: #f4f3ee;
+    font-size: 600;
+    font-size: 1.3rem;
+    height: auto;
+    text-align: left;
+  }
 }
 
 /* big screen mobile devices */
@@ -193,26 +208,7 @@
 
   .circle1,
   .circle2 {
-    background: linear-gradient(
-      to right bottom,
-      rgba(70, 68, 68, 0.3),
-      rgba(70, 68, 68, 0.2)
-    );
-    height: 7rem;
-    width: 7rem;
-    position: absolute;
-    backdrop-filter: blur(10rem);
-    opacity: 0.9;
-  }
-
-  .circle1 {
-    top: 15%;
-    right: 2%;
-  }
-
-  .circle2 {
-    left: 1%;
-    top: 68%;
+    display: none;
   }
 
   .section-1 {
