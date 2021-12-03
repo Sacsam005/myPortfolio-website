@@ -180,7 +180,7 @@ span.result {
 
 .circle2 {
   left: 13%;
-  top: 90%;
+  top: 95%;
   border-radius: 50%;
 }
 
@@ -198,7 +198,7 @@ span.result {
   align-items: center;
   text-align: center;
   background: transparent;
-  margin-bottom: 5rem;
+  margin-top: -1.5rem;
 }
 
 .flex-box {
@@ -207,6 +207,10 @@ span.result {
   flex-wrap: wrap;
   justify-content: space-between;
   background: transparent;
+}
+
+svg {
+  box-shadow: 5px 5px 5px orange;
 }
 
 .portfolio {
