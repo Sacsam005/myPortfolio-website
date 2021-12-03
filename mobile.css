@@ -161,7 +161,7 @@
   }
 
   button {
-    box-shadow: 1px orange;
+    box-shadow: 5px 5px 5px orange;
     color: #f4f3ee;
     font-size: 600;
     font-size: 1.3rem;
@@ -260,7 +260,7 @@
   }
 
   button {
-    box-shadow: 1px orange;
+    box-shadow: 5px 5px 5px orange;
     color: #f4f3ee;
     font-size: 600;
     font-size: 1.3rem;
@@ -351,7 +351,7 @@
   }
 
   button {
-    box-shadow: 1px 0px orange;
+    box-shadow: 5px 5px 5px orange;
     color: #f4f3ee;
     font-size: 600;
     font-size: 1.3rem;
