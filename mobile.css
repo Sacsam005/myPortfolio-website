@@ -79,7 +79,6 @@
 
   .portfolio img {
     width: 100%;
-    margin-top: -5rem;
   }
 
   h4.text-center {
@@ -100,7 +99,7 @@
   }
 
   .section-1 {
-    padding-top: 30rem;
+    padding-top: 32rem;
   }
 
   section#team {
