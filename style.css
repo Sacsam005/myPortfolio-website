@@ -104,8 +104,8 @@ span.result {
   min-height: 65vh;
   background: linear-gradient(
     to right bottom,
-    rgba(70, 68, 68, 0.3),
-    rgba(70, 68, 68, 0.2)
+    rgba(65, 65, 65, 0.3),
+    rgba(65, 65, 65, 0.4)
   );
   border-radius: 2rem;
   margin: 0 auto;
@@ -125,14 +125,6 @@ span.result {
   backdrop-filter: blur(10rem);
   opacity: 0.9;
   animation: zoom 0.5s ease-in;
-}
-
-.glass {
-  background: linear-gradient(
-    to right bottom,
-    rgba(65, 65, 65, 0.3),
-    rgba(65, 65, 65, 0.4)
-  );
 }
 
 .dashboard {
@@ -494,6 +486,22 @@ section.article {
 .grid-container,
 .col-md-4 {
   margin-top: 1rem;
+}
+
+#chat-bot-launcher-container.chat-bot-avatar-launcher
+  .chat-bot-launcher-button {
+  box-shadow: 5px 5px 5px 5px orange !important;
+  text-decoration: none;
+}
+
+#chat-bot-message-container .chat-bot-message-label {
+  background-color: black !important;
+  padding: 10px !important;
+}
+
+#chat-bot-message-container .overflow {
+  overflow: hidden !important;
+  background-color: transparent;
 }
 
 /* animations */
