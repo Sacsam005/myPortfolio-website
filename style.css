@@ -418,7 +418,11 @@ pre code {
 }
 
 .small-icons i {
-  padding: 0 0.5rem;
+  padding: 0 0.25rem;
+}
+
+.small-icons i:hover {
+  color: cyan !important;
 }
 
 /* end of tools section */
