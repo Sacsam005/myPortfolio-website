@@ -355,8 +355,12 @@ b:hover {
 /* end of achievements section */
 
 /* demo projects */
+.demo-projects {
+  padding-top: 2rem;
+}
+
 .demo-projects .card {
-  width: 85%;
+  width: 90%;
   height: auto;
   box-shadow: 5px 5px 5px orange;
   margin: 0 auto;
