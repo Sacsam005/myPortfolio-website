@@ -354,6 +354,16 @@ b:hover {
 
 /* end of achievements section */
 
+/* demo projects */
+.demo-projects .card {
+  width: 85%;
+  height: auto;
+  box-shadow: 5px 5px 5px orange;
+  margin: 0 auto;
+}
+
+/* end of demo projects */
+
 /* sections tools */
 
 div.main-grid {
