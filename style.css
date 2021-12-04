@@ -356,12 +356,10 @@ b:hover {
 
 /* demo projects */
 
-.demo-projects .card {
-  width: 90%;
-  height: 50vh;
-  height: 100%;
-  box-shadow: 5px 5px 5px orange;
-  margin: 0 auto;
+.demo-projects video {
+  width: 100%;
+  height: 75%;
+  box-shadow: 4px 4px 4px orange;
 }
 
 /* end of demo projects */
