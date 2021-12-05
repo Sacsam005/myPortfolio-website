@@ -356,7 +356,7 @@ b:hover {
 
 /* demo projects */
 section.demo-projects {
-  padding-top: 2rem;
+  padding-top: 3rem;
 }
 
 .demo-projects video {
@@ -497,7 +497,7 @@ form input::placeholder {
 section#team,
 section#achievements,
 section.article {
-  padding-top: 3rem;
+  padding-top: 5rem;
 }
 
 .grid-container,
