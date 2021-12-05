@@ -355,6 +355,9 @@ b:hover {
 /* end of achievements section */
 
 /* demo projects */
+section.demo-projects {
+  padding-top: 2rem;
+}
 
 .demo-projects video {
   width: 100%;
@@ -494,7 +497,7 @@ form input::placeholder {
 section#team,
 section#achievements,
 section.article {
-  padding-top: 1rem;
+  padding-top: 3rem;
 }
 
 .grid-container,
