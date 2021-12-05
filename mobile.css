@@ -188,6 +188,7 @@
   h3 {
     font-size: 1.75rem;
   }
+
   p,
   #item1.card a,
   #item2.card a,
@@ -198,6 +199,7 @@
   main {
     width: 100%;
   }
+
   .glass {
     width: 90%;
     min-height: 50vh;
@@ -216,9 +218,9 @@
     display: none;
   }
 
-  /* .section-1 {
-    margin-top: -22rem;
-  } */
+  .section-1 {
+    margin-top: 0;
+  }
 
   section#team {
     padding-top: 3rem;
@@ -373,17 +375,12 @@
   }
 
   .section-1 {
-    margin-top: ;
+    margin-top: 0;
   }
 }
 @media screen and (max-width: 1280px) {
-  .circle1,
-  .circle2 {
-    display: none;
-  }
-
   .section-1 {
-    margin-top: auto;
+    margin-top: 0;
   }
 }
 
@@ -394,6 +391,21 @@
   }
 
   .section-1 {
-    margin-top: auto;
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .circle1,
+  .circle2 {
+    display: none;
+  }
+
+  .section-1 {
+    margin-top: -1rem;
+  }
+
+  main {
+    height: auto;
   }
 }
