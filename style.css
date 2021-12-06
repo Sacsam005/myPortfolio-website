@@ -522,10 +522,26 @@ section.article {
 }
 
 /* animations */
+.user button,
+svg {
+  animation: slideUp 0.5s ease-in;
+}
+
+@keyframes slideUp {
+  0% {
+    transform: translateY(100px);
+  }
+  50% {
+    transform: translateY(50px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
 
 .portfolio img {
   box-shadow: 5px 5px 5px orange;
-  animation: zoom 0.25s ease-in;
+  animation: zoom 0.25s ease-in-out;
 }
 
 @keyframes zoom {
@@ -536,6 +552,54 @@ section.article {
     transform: scaleX(1);
   }
 }
+
+video {
+  animation: zoomIn 5s ease-in-out;
+}
+
+@keyframes zoomIn {
+  0% {
+    transform: translateY(250px);
+  }
+
+  100% {
+    transform: translateY(0);
+  }
+}
+
+#item1.card {
+  animation: slideFromLeft 5s ease-in-out;
+}
+
+#item2.card {
+  animation: slideFromRight 5s ease-in-out;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(-100px);
+  }
+  50% {
+    transform: translateX(-50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(100px);
+  }
+  50% {
+    transform: translateX(50px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* end of animations */
 
 .content img {
   width: 10vmin;
