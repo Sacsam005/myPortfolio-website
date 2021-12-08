@@ -72,6 +72,14 @@ header {
   display: none;
 }
 
+.dropdown-menu a {
+  font-weight: bold;
+}
+
+.dropdown-menu a:hover {
+  background-color: black;
+}
+
 /* end of navbar */
 
 /* section main */
@@ -490,6 +498,16 @@ form input.form-control {
 
 form input::placeholder {
   color: black !important;
+}
+
+.rights p a {
+  text-decoration: none;
+  list-style-type: none;
+  transition: all 0.5s ease-in-out;
+}
+
+.rights p a:hover {
+  font-size: 1.75rem;
 }
 
 /* general styling */
