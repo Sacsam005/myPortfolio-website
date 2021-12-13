@@ -199,6 +199,7 @@ span.result {
   align-items: center;
   text-align: center;
   background: transparent;
+  margin-top: -1.5rem;
 }
 
 .flex-box {
