@@ -13,7 +13,7 @@
 .navbar ul {
   margin: 0 auto;
   padding: 3vmin;
-  word-spacing: 4vmin;
+  word-spacing: 3vmin;
   text-decoration: none;
 }
 
@@ -137,6 +137,7 @@ span.result {
 
 .dashboard {
   background: transparent;
+  margin: 0 auto;
 }
 
 .glass h4,
@@ -186,7 +187,7 @@ span.result {
 
 .user {
   background: transparent;
-  display: block;
+  display: grid;
   margin: 1.5rem;
   align-content: center;
   justify-content: center;
@@ -198,18 +199,27 @@ span.result {
   align-items: center;
   text-align: center;
   background: transparent;
-  margin-top: -1.5rem;
 }
 
 .flex-box {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
   flex-wrap: wrap;
   justify-content: space-between;
   background: transparent;
 }
 
+.user::after {
+  content: "";
+  clear: both;
+}
+
 svg {
+  margin: 0 auto;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
   box-shadow: 5px 5px 5px orange;
 }
 
