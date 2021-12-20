@@ -9,13 +9,19 @@
 }
 
 /* navbar */
+li.nav-item a.nav-link {
+  color: white;
 
-nav ul {
+}
+
+.navbar ul li {
   margin: 0 auto;
-  padding: 3vmin;
+  padding: 1vmin;
   word-spacing: 2vmin;
   text-decoration: none;
 }
+
+
 
 nav ul li {
   font-size: 1.3em;
@@ -26,7 +32,7 @@ nav ul li {
   justify-content: center;
 }
 
-a.nav-link {
+a.nav-link, a.dropdown-item {
   color: white;
   text-decoration: none;
   list-style-type: none;
@@ -38,6 +44,11 @@ a.nav-link {
 a.nav-link:hover {
   font-size: 1.75rem;
   color: orange;
+}
+
+a.dropdown-item:hover {
+  font-size: 1.25rem;
+
 }
 
 #logo {
@@ -62,18 +73,6 @@ nav.navbar.navbar-expand-lg.navbar-dark.bg-dark  {
     color: white;
   }
 
-/* .checkbtn {
-  font-size: 2rem;
-  color: white;
-  line-height: 5rem;
-  margin-right: 3.5rem;
-  cursor: pointer;
-  display: none;
-}
-
-#check {
-  display: none;
-} */
 
 .dropdown-menu a {
   font-weight: bold;
