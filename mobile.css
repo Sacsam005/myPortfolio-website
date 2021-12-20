@@ -9,10 +9,6 @@
  a.nav-link  {
     font-size: 1rem;
   }
-/* 
-  .checkbtn {
-    display: block;
-  } */
 
   .navbar ul li {
     width: 100%;
@@ -20,12 +16,6 @@
     text-align: center;
     transition: all 0.5s;
     z-index: 100;
-  }
-
-  input:not([disabled]):not([type="submit"]):focus {
-    content:"";
-    clear:both;
-    cursor: pointer;
   }
 
   nav ul li {
@@ -47,17 +37,10 @@
   }
 
   .navbar-nav i {
-    margin: 2vmin;
-  }
-
-  /* #check:checked ~ ul {
-    left: 0;
-  } */
-
-  .nav-link i {
     color: white;
-    margin: 2vmin;
+    margin: 1vmin;
   }
+
 
   .container.grid img {
     width: 100%;
@@ -183,7 +166,7 @@
     text-align: left;
   }
 
-  .rights p {
+   p.text-center {
     font-size: 1rem;
   }
 }
@@ -284,7 +267,7 @@
     text-align: left;
   }
 
-  .rights p {
+   p.text-center {
     font-size: 1rem;
   }
 }
@@ -316,11 +299,15 @@
     display: none;
   }
 
-  a.nav-link,
+  
   b,
   h3 {
     font-size: 1.5rem;
     font-weight: bold;
+  }
+
+  a.nav-link {
+    font-size: 1rem;
   }
 
   p,
@@ -376,7 +363,7 @@
     text-align: left;
   }
 
-  .rights p {
+  p.text-center {
     font-size: 1rem;
   }
 }
