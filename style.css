@@ -10,14 +10,14 @@
 
 /* navbar */
 
-.navbar ul {
+nav ul {
   margin: 0 auto;
   padding: 3vmin;
-  word-spacing: 3vmin;
+  word-spacing: 2vmin;
   text-decoration: none;
 }
 
-.navbar ul li {
+nav ul li {
   font-size: 1.3em;
   font-weight: bold;
   display: inline-block;
@@ -26,7 +26,7 @@
   justify-content: center;
 }
 
-.navbar ul li a {
+a.nav-link {
   color: white;
   text-decoration: none;
   list-style-type: none;
@@ -35,7 +35,7 @@
   transition: all 0.5s ease-in-out;
 }
 
-.navbar ul li a:hover {
+a.nav-link:hover {
   font-size: 1.75rem;
   color: orange;
 }
@@ -50,16 +50,19 @@
   transition: 5s ease-in-out;
 }
 
-header {
-  background-color: black;
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark  {
+  background-color: black!important;
 }
 
-.links i {
-  color: white;
-  margin: 0.5vmin;
-}
+.navbar-nav i {
+    margin: 1vmin;
+  }
 
-.checkbtn {
+  .dropdown-divider {
+    color: white;
+  }
+
+/* .checkbtn {
   font-size: 2rem;
   color: white;
   line-height: 5rem;
@@ -70,7 +73,7 @@ header {
 
 #check {
   display: none;
-}
+} */
 
 .dropdown-menu a {
   font-weight: bold;
@@ -408,7 +411,7 @@ ul {
 }
 
 #item1.card {
-  height: 50%;
+  height: 55%;
 }
 
 #item1.card a:hover {
@@ -631,8 +634,8 @@ video {
 /* end of animations */
 
 .content img {
-  width: 10vmin;
-  height: 10vmin;
+  width: 8vmin;
+  height: 8vmin;
   margin-top: 0.5rem;
 }
 
