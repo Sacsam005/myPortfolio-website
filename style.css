@@ -473,14 +473,14 @@ p::first-letter {
   font-size: xx-large;
 }
 
-.sitemap .links a {
+.sitemap .nav-item a {
   text-decoration: none;
   color: white;
   line-height: 2rem;
   transition: all 0.5s ease-in;
 }
 
-.sitemap .links a:hover {
+.sitemap .nav-item a:hover {
   color: orange;
   border-bottom: 1px solid white;
   transform: scale(2);
@@ -514,13 +514,13 @@ form input::placeholder {
   color: black !important;
 }
 
-.rights p a {
+p.text-center a{
   text-decoration: none;
   list-style-type: none;
   transition: all 0.5s ease-in-out;
 }
 
-.rights p a:hover {
+p.text-center a:hover {
   font-size: 1.75rem;
 }
 
