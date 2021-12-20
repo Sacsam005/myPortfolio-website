@@ -143,8 +143,12 @@
     padding: 0 0.2rem;
   }
 
-  .sitemap .links a {
+  .sitemap .nav-item a {
     font-size: 1.2rem;
+  }
+
+  .sitemap .nav-item i {
+    margin: 2vmin; 
   }
 
   .grid-4 {
