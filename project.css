@@ -1,0 +1,29 @@
+.carousel-item img {
+  border-top-color: 2px outset #44fc75;
+
+  animation: 0.5s changeColor 0.5s infinite;
+  transition: all infinite 0.5s;
+}
+
+@keyframes changeColor {
+  0% {
+    border-width: 1px;
+    border-style: solid;
+    border-top-color: #44fc75;
+  }
+  25% {
+    border-width: 1px;
+    border-style: solid;
+    border-left-color: #fcac44;
+  }
+  50% {
+    border-width: 1px;
+    border-style: solid;
+    border-bottom-color: #bf37bb;
+  }
+  100% {
+    border-width: 1px;
+    border-style: solid;
+    border-right-color: #00c7eb;
+  }
+}
