@@ -2,7 +2,7 @@ $hexagon-width: 250px;
 $hexagon-height: $hexagon-width * 0.55;
 $hexagon-margin: 25px;
 $hexagon-title-color: #fff;
-$hexagon-border-color: #fff;
+$hexagon-border-color: #000;
 $hexagon-border-color--hover: #72f88e;
 $hexagon-image-color: #3ea0eb;
 $honeycomb-max-width: 100%;
@@ -39,7 +39,6 @@ body {
     margin: 4rem 0.5rem 1.5rem;
     position: relative;
     padding: 0.5em;
-
     text-align: center;
     z-index: 1;
 
@@ -95,6 +94,10 @@ body {
       background: $hexagon-image-color;
       opacity: 0.5;
       transition: opacity 350ms;
+    }
+
+    &:hover {
+      transform: scale(1.1);
     }
 
     &:hover {
