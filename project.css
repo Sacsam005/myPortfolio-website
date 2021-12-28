@@ -98,9 +98,9 @@ body {
 }
 
 .honeycomb-cell::before {
-  background: #000;
-  -webkit-transform: scale(1.055);
-          transform: scale(1.055);
+  background: transparent;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .honeycomb-cell::after {
@@ -111,8 +111,8 @@ body {
 }
 
 .honeycomb-cell:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 .honeycomb-cell:hover .honeycomb-cell__title {
