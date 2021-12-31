@@ -6,7 +6,7 @@
     text-align: center;
   }
 
- a.nav-link  {
+  a.nav-link {
     font-size: 1rem;
   }
 
@@ -24,7 +24,7 @@
     line-height: 3rem;
   }
 
-  a.nav-link  {
+  a.nav-link {
     font-size: 1.3rem;
     justify-content: center;
     align-items: center;
@@ -40,7 +40,6 @@
     color: white;
     margin: 1vmin;
   }
-
 
   .container.grid img {
     width: 100%;
@@ -131,7 +130,7 @@
   }
 
   .sitemap .nav-item i {
-    margin: 2vmin; 
+    margin: 2vmin;
   }
 
   .grid-4 {
@@ -166,7 +165,7 @@
     text-align: left;
   }
 
-   p.text-center {
+  p.text-center {
     font-size: 1rem;
   }
 }
@@ -199,11 +198,7 @@
   .glass {
     width: 90%;
     min-height: 50vh;
-    background: linear-gradient(
-      to right bottom,
-      rgba(70, 68, 68, 0.3),
-      rgba(70, 68, 68, 0.2)
-    );
+    background: linear-gradient(to right bottom, rgba(70, 68, 68, 0.3), rgba(70, 68, 68, 0.2));
     border-radius: 2rem;
     margin: 0 auto;
     padding-top: 5rem;
@@ -267,7 +262,7 @@
     text-align: left;
   }
 
-   p.text-center {
+  p.text-center {
     font-size: 1rem;
   }
 }
@@ -280,11 +275,7 @@
   .glass {
     width: 75%;
     min-height: 50vh;
-    background: linear-gradient(
-      to right bottom,
-      rgba(70, 68, 68, 0.3),
-      rgba(70, 68, 68, 0.2)
-    );
+    background: linear-gradient(to right bottom, rgba(70, 68, 68, 0.3), rgba(70, 68, 68, 0.2));
     border-radius: 2rem;
     margin: 0 auto;
     padding-top: 5rem;
@@ -299,7 +290,6 @@
     display: none;
   }
 
-  
   b,
   h3 {
     font-size: 1.5rem;

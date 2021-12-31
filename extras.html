@@ -10,40 +10,33 @@
     <link rel="apple-touch-icon" href="/favicon2.png" />
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="mobile.css">
-    <link rel="stylesheet" href="blog.css">
+    <link rel="stylesheet" href="extras.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.7/css/all.css">
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
 <body>
-    <!-- start of header section -->
     <header>
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <img src="./img/logo.png" alt="logo" id="logo">
+            <a href="index.html"><img src="./img/logo.png" alt="logo" id="logo"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
-
-                    <li class="nav-item"><a class="nav-link" href="index.html"><i class="fas fa-home"
-                                style="color:rgb(224, 143, 20)"></i>Home</a></li>
-                    <li class="nav-item"><a class="nav-link" aria-current="page" href="blog.html" target="_blank"><i class="fab fa-blogger"
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="blog.html" target="_blank"><i class="fab fa-blogger"
                                 style="color: red;"></i>BLOGS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="project.html" target="_blank"><i class="fab fa-connectdevelop"
-                                style="color:cyan"></i>PROJECTS</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#" target="_blank"><i class="fab fa-staylinked"
-                                style="color:#fdf907;"></i>Extras</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/Sacsam005" target="_blank"><i class="fab fa-github"
+                                style="color:#c7c7c7;"></i>GITHUB</a></li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true"
                             aria-expanded="false"><i class="fas fa-globe" style="color:teal"></i>SOCIAL</a>
                         <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item text-light" href="https://www.linkedin.com/in/sachin-samal-590b19138/"
-                                target="_blank"><i class="fab fa-github" style="color:#c7c7c7;"></i>GITHUB</a>
-                            <div class="dropdown-divider"></div>
                             <a class="dropdown-item text-light" href="https://www.linkedin.com/in/sachin-samal-590b19138/"
                                 target="_blank"><i class="fab fa-linkedin" style="color:#0e76a8"></i>LINKEDIN</a>
                             <div class="dropdown-divider"></div>
@@ -54,42 +47,26 @@
                                     class="fab fa-codepen" style="color:rgb(224, 143, 20)"></i>LEETCODE</a>
                         </div>
                     </li>
-
+                    <li class="nav-item"><a class="nav-link" href="project.html" target="_blank"><i class="fab fa-connectdevelop"
+                                style="color:cyan"></i>PROJECTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://github.com/Sacsam005?tab=repositories" target="_blank"><i
+                                class="fab fa-codepen" style="color:rgb(224, 143, 20)"></i>EXTRAS</a></li>
                 </ul>
             </div>
         </nav>
     </header>
 
-    <!-- end of header section -->
 
-    <div class="cards">
-        <a href="https://shachinmagar120sm.wixsite.com/codingproficiency/home" target="_blank">
-            <div class="card-body">
-                <div class="card-img">
-                    <img src="https://static.wixstatic.com/media/nsplsh_b403e39fba4040ad92fb455a2a4d8c72~mv2.jpg/v1/fill/w_868,h_580,al_c,q_85,usm_0.66_1.00_0.01/Image%20by%20XPS.webp"
-                        alt="Blog">
-                </div>
-                <div class="card-title">
-                    <h2>Coding Proficiency</h2>
-                    <p>Coding proficiency challenges as a beginner</p>
-                </div>
-            </div>
-        </a>
-        <a href="https://shachinmagar120sm.wixsite.com/codingproficiency/post/javascript-to-reactjs" target="_blank">
-            <div class="card-body">
-                <div class="card-img">
-                    <img src="https://static.wixstatic.com/media/b1f756_12f9b72853e24dbeb7ead1f4b84e6f2b~mv2.png/v1/fill/w_1480,h_833,al_c,q_95/b1f756_12f9b72853e24dbeb7ead1f4b84e6f2b~mv2.webp"
-                        alt="Blog">
-                </div>
-                <div class="card-title">
-                    <h2>ReactJS to javaScript</h2>
-                    <p>How much JavaScript should I learn before jumping into ReactJS?</p>
-                </div>
-            </div>
-        </a>
-    </div>
-
-
+    <!-- main section -->
+    <main class="main-grid">
+        <img src="/img/interest.png" alt="Sample photo">
+        <img src="/img/bina.png" alt="Sample photo">
+        <img src="/img/dev.png" alt="Sample photo">
+        <img src="/img/services.png" alt="Sample photo">
+        <img src="/img/study.png" alt="Sample photo">
+        <img src="/img/sports.png" alt="Sample photo">
+    </main>
+    <!-- end of main section -->
 
     <!-- footer -->
     <footer class="footer">
@@ -160,6 +137,7 @@
                     style="color:orange; font-weight: bold;">Sacsam005</span></a></p>
 
     </footer>
+    <!-- end of footer -->
 
     <!-- Optional JavaScript -->
     <!-- <script src="particles.js-master/particles.js">
