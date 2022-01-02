@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700");
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 body {
   font-family: 'Montserrat', sans-serif;
   background: #3ea0eb;
@@ -8,7 +8,12 @@ body {
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
 }
 
 .honeycomb {
@@ -16,25 +21,25 @@ body {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  flex-wrap: wrap;
   list-style: none;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  max-width: 100%;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
   margin: -2rem auto;
   padding: 0;
   -webkit-transform: translateY(34.375px);
-          transform: translateY(34.375px);
+  transform: translateY(34.375px);
 }
 
 .honeycomb-cell {
   -webkit-box-flex: 0;
-      -ms-flex: 0 1 250px;
-          flex: 0 1 250px;
+  -ms-flex: 0 1 250px;
+  flex: 0 1 250px;
   max-width: 250px;
   height: 137.5px;
   margin: 4rem 0.5rem 1.5rem;
@@ -51,14 +56,14 @@ body {
   display: flex;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
   -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
   -webkit-hyphens: auto;
-      -ms-hyphens: auto;
-          hyphens: auto;
+  -ms-hyphens: auto;
+  hyphens: auto;
   word-break: break-word;
   text-transform: uppercase;
   color: #fff;
@@ -76,16 +81,19 @@ body {
 
 .honeycomb-cell__image {
   -o-object-fit: contain;
-     object-fit: contain;
+  object-fit: contain;
   -o-object-position: center;
-     object-position: center;
+  object-position: center;
 }
 
-.honeycomb-cell::before, .honeycomb-cell::after {
+.honeycomb-cell::before,
+.honeycomb-cell::after {
   content: '';
 }
 
-.honeycomb-cell::before, .honeycomb-cell::after, .honeycomb-cell__image {
+.honeycomb-cell::before,
+.honeycomb-cell::after,
+.honeycomb-cell__image {
   top: -50%;
   left: 0;
   width: 100%;
@@ -93,14 +101,14 @@ body {
   display: block;
   position: absolute;
   -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
-          clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
   z-index: -1;
 }
 
 .honeycomb-cell::before {
   background: transparent;
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .honeycomb-cell::after {
@@ -112,7 +120,7 @@ body {
 
 .honeycomb-cell:hover {
   -webkit-transform: scale(1.05);
-          transform: scale(1.05);
+  transform: scale(1.05);
 }
 
 .honeycomb-cell:hover .honeycomb-cell__title {
@@ -135,7 +143,38 @@ body {
 }
 
 .footer {
+  margin-top: 0;
+}
+
+.grid-project {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
   margin-top: 3rem;
+}
+
+.card-img img {
+  width: 100%;
+  height: auto;
+}
+
+.grid-project a:nth-child(1) {
+  grid-column: 1/3;
+  grid-row: 1/2;
+}
+
+.grid-project a:nth-child(2) {
+  grid-column: 3/4;
+  grid-row: 1/2;
+}
+
+.grid-project a:nth-child(3) {
+  grid-column: 1/4;
+  grid-row: 2/3;
 }
 
 @media (max-width: 550px) {
@@ -181,4 +220,5 @@ body {
     display: block;
   }
 }
+
 /*# sourceMappingURL=project.css.map */
