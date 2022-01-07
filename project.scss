@@ -6,7 +6,7 @@ $hexagon-border-color: transparent;
 $hexagon-border-color--hover: #72f88e;
 $hexagon-image-color: #3ea0eb;
 $honeycomb-max-width: 100%;
-$viewport-thereshold: $hexagon-width + $hexagon-margin;
+$viewport-threshold: $hexagon-width + $hexagon-margin;
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
@@ -127,13 +127,13 @@ body {
   margin-top: 3rem;
 }
 
-@media (max-width:#{2*$viewport-thereshold}) {
+@media (max-width:#{2*$viewport-threshold}) {
   .honeycomb-cell {
     margin: #{$hexagon-margin/2 + $hexagon-height/2} $hexagon-margin;
   }
 }
 
-@media (min-width: #{2*$viewport-thereshold}) and (max-width:#{3*$viewport-thereshold}) {
+@media (min-width: #{2*$viewport-threshold}) and (max-width:#{3*$viewport-threshold}) {
   .honeycomb-cell:nth-child(3n) {
     margin-right: calc(50% - #{$hexagon-width/2});
     margin-left: calc(50% - #{$hexagon-width/2});
@@ -144,7 +144,7 @@ body {
   }
 }
 
-@media (min-width: #{3*$viewport-thereshold}) and (max-width:#{4*$viewport-thereshold}) {
+@media (min-width: #{3*$viewport-threshold}) and (max-width:#{4*$viewport-threshold}) {
   .honeycomb-cell:nth-child(5n + 4) {
     margin-left: calc(50% - #{$hexagon-width + $hexagon-margin});
   }
@@ -159,7 +159,7 @@ body {
   }
 }
 
-@media (min-width: #{4*$viewport-thereshold}) {
+@media (min-width: #{4*$viewport-threshold}) {
   .honeycomb-cell:nth-child(7n + 5) {
     margin-left: calc(50% - #{$hexagon-width * 1.5 + $hexagon-margin});
   }
